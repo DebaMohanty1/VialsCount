@@ -22,7 +22,7 @@ def img_to_bytes(img_path):
     return encoded
 
 # Load the model
-model_path = "Yolov8n_30.pt"
+model_path = "yolov8n_30.pt"
 try:
     model = YOLO(model_path)
 except Exception as e:
